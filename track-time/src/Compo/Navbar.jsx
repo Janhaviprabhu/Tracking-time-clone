@@ -58,23 +58,28 @@ export default function Navbar ( ){
               src="https://trackingtime.co/wp-content/themes/trackingtime-v4/img/home/arrow-icon.png"
             />
 
-            <Button
-              borderColor="#00ad95"
-              variant={"outline"}
-              color="#00ad95"
-              
-            >
-              Try For Free
-            </Button>
-            <Button
-              bg="#00ad95"
-              border="1px"
-              borderColor="#00ad95"
-              variant={"solid"}
-              color="white"
-            >
-              Login
-            </Button>
+            <Link to={"/tryforfree"}>
+              <Button
+                borderColor="#00ad95"
+                variant={"outline"}
+                color="#00ad95"
+                _hover={{ bg: "#00ad95", color: "white" }}
+              >
+                Try For Free
+              </Button>
+            </Link>
+            <Link to={"/login"}>
+              <Button
+                bg="#00ad95"
+                _hover={{ bg: "#f6f8f9;", color: "#00ad95" }}
+                border="1px"
+                borderColor="#00ad95"
+                variant={"solid"}
+                color="white"
+              >
+                Login
+              </Button>
+            </Link>
           </Stack>
         </Stack>
       </>
