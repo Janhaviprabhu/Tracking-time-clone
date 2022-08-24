@@ -1,4 +1,6 @@
 import {  Box, Button, Flex, Heading, Image,Input,Stack,Text } from "@chakra-ui/react"
+import { Menu, MenuButton, MenuList, MenuItem } from "@chakra-ui/react";
+import { Dropdownicon } from "../Icons/Icons";
 import "../Footer.css"
 export const Footer=()=>{
     return (
@@ -41,6 +43,7 @@ export const Footer=()=>{
               >
                 Sign in with Google
               </Text>
+              <br />
             </Flex>
           </Stack>
           <Flex textAlign={"left"} gap={10} fontSize={13}>
@@ -130,16 +133,57 @@ export const Footer=()=>{
               </Box>
             </Box>
           </Flex>
-          <Flex>
+          <Flex gap={10} fontSize={13}>
             <Box>
-              <Button _hover={{bg:"white",bgImage:"black"}} bg="black">
-                <Image src="https://trackingtime.co/wp-content/themes/trackingtime-v4/img/social/twitterblanco.png" />
+              <Button
+                _hover={{ bg: "white", bgImage: "black" }}
+                borderRadius="50%"
+                bg="black"
+              >
+                <Image
+                  width={10}
+                  src="https://trackingtime.co/wp-content/themes/trackingtime-v4/img/social/twitterblanco.png"
+                />
               </Button>
-              <Button><Image src=""/></Button>
-              <Button><Image src=""/></Button>
+              <Button background={"black"}>
+                <Image src="https://trackingtime.co/wp-content/themes/trackingtime-v4/img/social/linkedinblanco.png" />
+              </Button>
+              <Button background={"black"}>
+                <Image src="https://trackingtime.co/wp-content/themes/trackingtime-v4/img/social/facebookblanco.png" />
+              </Button>
+              © 2022 TrackingTime, LLC
             </Box>
-            <Box></Box>
-            <Box></Box>
+
+            <Box>
+              <Text fontWeight={"bold"}>Help & Support</Text>
+              <Box lineHeight={2}>
+                <Text _hover={{ color: "#00ad95" }}>Help Center</Text>
+                <Text _hover={{ color: "#00ad95" }}>Developers</Text>
+                <Text _hover={{ color: "#00ad95" }}>Contact us</Text>
+              </Box>
+            </Box>
+            <Box>
+              <Text>Choose Language</Text>
+              <Box>
+                <Menu>
+                  <MenuButton
+                    bg={"white"}
+                    as={Button}
+                    _hover={{ color: "#00ad95" }}
+                    rightIcon={<Dropdownicon />}
+                  >
+                    English
+                  </MenuButton>
+                  <MenuList>
+                    <MenuItem _hover={{ color: "#00ad95" }}>Deutsch</MenuItem>
+
+                    <MenuItem _hover={{ color: "#00ad95" }}>Español</MenuItem>
+
+                    <MenuItem _hover={{ color: "#00ad95" }}>Portugues</MenuItem>
+                  </MenuList>
+                </Menu>
+              </Box>
+            </Box>
           </Flex>
         </Stack>
       </>

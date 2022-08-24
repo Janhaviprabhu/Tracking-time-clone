@@ -26,3 +26,19 @@ export const MicrodoftIcon=()=>{
       </>
     );
 }
+export const Dropdownicon=()=>{
+    return (
+      <>
+        <Image
+          style={{
+            width: "2px",
+            height: "2px",
+            marginTop: "2px",
+            marginLeft: "-1px",
+            cursor: "pointer",
+          }}
+          src="https://trackingtime.co/wp-content/themes/trackingtime-v4/img/home/arrow-icon.png"
+        />
+      </>
+    );
+}
