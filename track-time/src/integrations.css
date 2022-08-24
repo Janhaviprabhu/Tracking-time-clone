@@ -1,0 +1,22 @@
+body{
+    background-color:#f6f8f9;
+}
+
+.heading{
+    width: 800px;
+  margin: auto;
+}
+.Button{
+
+   background-color: brown;
+    width:100%;
+
+    
+
+}
+.btn1{
+    width: 250px;
+}
+.btn2{
+    width: 250px;
+}
