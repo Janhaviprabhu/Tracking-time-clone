@@ -1,0 +1,15 @@
+body{
+    text-align: left;
+}
+.des{
+    text-align: left;
+    width: 74%;
+    margin: auto;
+}
+.h1{
+    width:440px
+}
+.outer-div{
+    display: grid;
+    
+}
