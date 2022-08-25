@@ -10,7 +10,7 @@ import {
 export default function Navbar ( ){
     return (
       <>
-        <Stack direction="row" spacing={500} mt={4}>
+        <Stack direction="row" spacing={370} mt={4}>
           <Link to={"/"}>
             <Stack ml={40}>
               <Image
@@ -60,16 +60,18 @@ export default function Navbar ( ){
 
             <Link to={"/tryforfree"}>
               <Button
+              width={150}
                 borderColor="#00ad95"
                 variant={"outline"}
                 color="#00ad95"
                 _hover={{ bg: "#00ad95", color: "white" }}
               >
-                Try For Free
+                TRY FOR FREE
               </Button>
             </Link>
             <Link to={"/login"}>
               <Button
+              width={150}
                 bg="#00ad95"
                 _hover={{ bg: "#f6f8f9;", color: "#00ad95" }}
                 border="1px"
@@ -77,7 +79,7 @@ export default function Navbar ( ){
                 variant={"solid"}
                 color="white"
               >
-                Login
+                LOGIN
               </Button>
             </Link>
           </Stack>
