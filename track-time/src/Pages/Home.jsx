@@ -4,7 +4,7 @@ import "../home.css";
 export default function Home() {
   return (
     <>
-    <br /><br /><br />
+    <br /><br /><br /><br /><br />
       <Stack className="int_cont" >
         <Stack className="heading" >
           <Heading letterSpacing={1} color={"#00ad95"} as={"h6"} size="xs">

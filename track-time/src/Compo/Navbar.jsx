@@ -10,15 +10,24 @@ import {
 export default function Navbar ( ){
     return (
       <>
-        <Stack direction="row" spacing={370} mt={4}>
+        <Stack
+        p={2}
+        mt={"0px"}
+          bg={"#f6f8f9"}
+          position={"fixed"}
+          direction="row"
+          spacing={370}
+         
+        >
           <Link to={"/"}>
-            <Stack ml={40}>
-              <Image
-                style={{ width: "200px" }}
-                objectFit="cover"
-                src="https://trackingtime.co/wp-content/themes/trackingtime-v4/img/layout/header/logo.svg"
-              />
-            </Stack>
+            {/* <Stack ml={40}> */}
+            <Image
+              ml={40}
+              style={{ width: "200px" }}
+              objectFit="cover"
+              src="https://trackingtime.co/wp-content/themes/trackingtime-v4/img/layout/header/logo.svg"
+            />
+            {/* </Stack> */}
           </Link>
 
           <Stack direction="row" spacing={10}>
@@ -60,7 +69,7 @@ export default function Navbar ( ){
 
             <Link to={"/tryforfree"}>
               <Button
-              width={150}
+                width={150}
                 borderColor="#00ad95"
                 variant={"outline"}
                 color="#00ad95"
@@ -71,7 +80,7 @@ export default function Navbar ( ){
             </Link>
             <Link to={"/login"}>
               <Button
-              width={150}
+                width={150}
                 bg="#00ad95"
                 _hover={{ bg: "#f6f8f9;", color: "#00ad95" }}
                 border="1px"
