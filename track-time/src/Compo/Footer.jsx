@@ -29,7 +29,8 @@ export const Footer=()=>{
                 color={"white"}
               >
                 START FOR FREE
-              </Button>
+              </Button><br />
+              
             </Flex>
             <br />
             <Flex gap={3}>
@@ -45,7 +46,9 @@ export const Footer=()=>{
               </Text>
               <br />
             </Flex>
-          </Stack><br /><br />
+          </Stack>
+          <br />
+          <br />
           <Flex textAlign={"left"} gap={10} fontSize={13}>
             <Box lineHeight={2}>
               <Text fontWeight={"bold"}>Industries</Text>
@@ -137,7 +140,7 @@ export const Footer=()=>{
             <Box>
               <Button className="social-bth" borderRadius="60%" bg="white">
                 <img
-                alt="icon"
+                  alt="icon"
                   width={13}
                   src="https://cdn-icons-png.flaticon.com/512/733/733635.png"
                 />
@@ -148,7 +151,7 @@ export const Footer=()=>{
                 background={"white"}
               >
                 <img
-                alt="icon"
+                  alt="icon"
                   width={13}
                   src="https://cdn-user-icons.flaticon.com/73546/73546517/1661416267630.svg?token=exp=1661417147~hmac=0fc262313c17ae0a0d2ce887454fc54b"
                 />
@@ -159,7 +162,7 @@ export const Footer=()=>{
                 background={"white"}
               >
                 <img
-                alt="icon"
+                  alt="icon"
                   width={13}
                   src="https://cdn-icons-png.flaticon.com/512/20/20837.png"
                 />
