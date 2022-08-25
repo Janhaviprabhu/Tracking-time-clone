@@ -45,7 +45,7 @@ export const Footer=()=>{
               </Text>
               <br />
             </Flex>
-          </Stack>
+          </Stack><br /><br />
           <Flex textAlign={"left"} gap={10} fontSize={13}>
             <Box lineHeight={2}>
               <Text fontWeight={"bold"}>Industries</Text>
@@ -133,25 +133,40 @@ export const Footer=()=>{
               </Box>
             </Box>
           </Flex>
-          <Flex gap={10} fontSize={13}>
+          <Flex gap={20} fontSize={13}>
             <Box>
-              <Button
-                _hover={{ bg: "white", bgImage: "black" }}
-                borderRadius="50%"
-                bg="black"
-              >
-                <Image
-                  width={10}
-                  src="https://trackingtime.co/wp-content/themes/trackingtime-v4/img/social/twitterblanco.png"
+              <Button className="social-bth" borderRadius="60%" bg="white">
+                <img
+                alt="icon"
+                  width={13}
+                  src="https://cdn-icons-png.flaticon.com/512/733/733635.png"
                 />
               </Button>
-              <Button background={"black"}>
-                <Image src="https://trackingtime.co/wp-content/themes/trackingtime-v4/img/social/linkedinblanco.png" />
+              <Button
+                className="social-bth"
+                borderRadius="60%"
+                background={"white"}
+              >
+                <img
+                alt="icon"
+                  width={13}
+                  src="https://cdn-user-icons.flaticon.com/73546/73546517/1661416267630.svg?token=exp=1661417147~hmac=0fc262313c17ae0a0d2ce887454fc54b"
+                />
               </Button>
-              <Button background={"black"}>
-                <Image src="https://trackingtime.co/wp-content/themes/trackingtime-v4/img/social/facebookblanco.png" />
+              <Button
+                className="social-bth"
+                borderRadius="60%"
+                background={"white"}
+              >
+                <img
+                alt="icon"
+                  width={13}
+                  src="https://cdn-icons-png.flaticon.com/512/20/20837.png"
+                />
               </Button>
-              © 2022 TrackingTime, LLC
+              <br />
+              <br />
+              TrackingTime, LLC
             </Box>
 
             <Box>
@@ -163,7 +178,7 @@ export const Footer=()=>{
               </Box>
             </Box>
             <Box>
-              <Text>Choose Language</Text>
+              <Text fontWeight={"bold"}>Choose Language</Text>
               <Box>
                 <Menu>
                   <MenuButton

@@ -1,0 +1,74 @@
+body{
+    background-color:#f6f8f9;
+}
+
+.heading{
+    width: 800px;
+  margin: auto;
+}
+.Button{
+
+   background-color: brown;
+    width:100%;
+
+}
+.btn1{
+    width: 250px;
+}
+.btn2{
+    width: 250px;
+}
+.slider{
+    height: 250px;
+    margin: auto;
+    position: relative;
+    width: 90%;
+    display: grid;
+    place-items: center;
+    overflow: hidden;
+    background-color: white;
+       
+}
+.box{
+     box-shadow: 0 3px 6px 0 rgb(0 0 0 / 11%);
+      background-color: white;
+}
+.slide-track{
+    display: flex;
+    width: calc(250px*18);
+    animation: scroll 70s linear infinite ;
+}
+@keyframes scroll {
+    0%{
+        transform: translateX(0);
+    }
+    100%{
+        transform:translateX(calc(-250px*9))
+    }
+
+}
+.slide{
+    height: 200px;
+    width: 250px;
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    perspective: 100px;
+}
+.company{
+    width: 100%;
+     filter: grayscale(100%);
+}
+.features_box{
+    width: 420px;
+    background-color: white;
+    padding: 10px;
+    height: 560px;
+    line-height: 1.8;
+    box-shadow: 0 3px 6px 0 rgb(0 0 0 / 11%);
+
+}
+.features-flex{
+    width: 70%;
+    margin: auto;
+}
