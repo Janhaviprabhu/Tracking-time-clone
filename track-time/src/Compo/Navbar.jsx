@@ -22,7 +22,8 @@ export default function Navbar ( ){
           <Link to={"/"}>
             {/* <Stack ml={40}> */}
             <Image
-              ml={40}
+            
+              mr={64}
               style={{ width: "200px" }}
               objectFit="cover"
               src="https://trackingtime.co/wp-content/themes/trackingtime-v4/img/layout/header/logo.svg"
