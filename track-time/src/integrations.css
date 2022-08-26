@@ -3,13 +3,32 @@ body{
 }
 .des{
     text-align: left;
-    width: 74%;
+    width: 78%;
     margin: auto;
 }
 .h1{
     width:440px
 }
 .outer-div{
+    padding: 10px;
+    text-align: left;
     display: grid;
+    width: 79%;
+    margin: auto;
+    gap: 35px;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: auto;
+
     
+}
+.app-img{
+    width: 40px;
+    height: 40px;
+}
+.img-box{
+    padding: 20px;
+    width: 80px;
+    height: 80px;
+    border-radius: 11px;
+    box-shadow: 0 10px 7.51px 0 rgb(0 0 0 / 11%);
 }
