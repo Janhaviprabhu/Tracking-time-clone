@@ -1,5 +1,5 @@
 import { Button, Image, Heading, Stack, Box, Flex,Text,Input } from "@chakra-ui/react";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import "../home.css";
 export default function Home() {
   return (
@@ -60,13 +60,12 @@ export default function Home() {
               </Flex>
             </Box>
           </Box>
-        
-            <Image
-              width={"75%"}
-              pl={60}
-              src="https://trackingtime.co/wp-content/themes/trackingtime-v4/img/layout/header/ilus-header-2.svg"
-            />
-          
+
+          <Image
+            width={"75%"}
+            pl={60}
+            src="https://trackingtime.co/wp-content/themes/trackingtime-v4/img/layout/header/ilus-header-2.svg"
+          />
         </Stack>
 
         <div className="box">
@@ -476,14 +475,16 @@ export default function Home() {
                 width={"280px"}
                 placeholder="Your Work Mail"
               />
-              <Button
-                _hover={{ bg: "black" }}
-                width="210px"
-                bg="#00ad95"
-                color={"white"}
-              >
-                START FOR FREE
-              </Button>
+              <NavLink to={"/tryforfree"}>
+                <Button
+                  _hover={{ bg: "black" }}
+                  width="210px"
+                  bg="#00ad95"
+                  color={"white"}
+                >
+                  START FOR FREE
+                </Button>
+              </NavLink>
             </Flex>
             <br />
             <Flex gap={3}>
