@@ -4,7 +4,7 @@ import "../home.css";
 export default function Home() {
   return (
     <>
-      <Stack>
+      <Stack className="big_cont">
         <br />
         <br />
         <br />
@@ -16,10 +16,10 @@ export default function Home() {
               TRACKINGTIME TIME TRACKER SOFTWARE
             </Heading>
             <br />
-            <Heading letterSpacing={1} as={"h5"} size="md">
+            <Heading className="head1" letterSpacing={1} as={"h5"} size="md">
               SET AND FORGET TIME TRACKING
             </Heading>
-            <Heading as={"h1"} size="4xl">
+            <Heading className="head1" as={"h1"} size="4xl">
               Bring your productivity to the next level.
             </Heading>
           </Stack>
@@ -49,6 +49,7 @@ export default function Home() {
                   width={"25px"}
                   src="https://trackingtime.co/wp-content/themes/trackingtime-v4/img/keywords/google-key.png"
                 />
+
                 <Text
                   _hover={{ textDecoration: "none" }}
                   textDecoration="underline"
@@ -59,10 +60,13 @@ export default function Home() {
               </Flex>
             </Box>
           </Box>
-          <Image
-            width={"85%"}
-            src="https://trackingtime.co/wp-content/themes/trackingtime-v4/img/layout/header/ilus-header-2.svg"
-          />
+        
+            <Image
+              width={"75%"}
+              pl={60}
+              src="https://trackingtime.co/wp-content/themes/trackingtime-v4/img/layout/header/ilus-header-2.svg"
+            />
+          
         </Stack>
 
         <div className="box">

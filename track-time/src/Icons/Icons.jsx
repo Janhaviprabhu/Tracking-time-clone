@@ -31,11 +31,12 @@ export const Dropdownicon=()=>{
       <>
         <Image
           style={{
-            width: "2px",
-            height: "2px",
+            width: "17px",
+            height: "11px",
             marginTop: "2px",
-            marginLeft: "-1px",
+         marginRight:"2px",
             cursor: "pointer",
+            background: "white",
           }}
           src="https://trackingtime.co/wp-content/themes/trackingtime-v4/img/home/arrow-icon.png"
         />

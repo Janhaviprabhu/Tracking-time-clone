@@ -29,6 +29,7 @@ body {
   background-color: white;
 }
 .box {
+  width: 100%;
   box-shadow: 0 3px 6px 0 rgb(0 0 0 / 11%);
   background-color: white;
 }
@@ -111,4 +112,40 @@ body {
 .timesheet {
   width: 500px;
   margin-left: 120px;
+}
+@media all and (min-width: 450px) and (max-width: 750px) {
+  .head1{
+    font-size: 12px;
+  }
+ 
+.buttons {
+  padding-left: 150px;
+  width: 700px;
+}
+.button {
+  padding-left: 150px;
+}
+.btn1 {
+  width: 200px;
+}
+.btn2 {
+  width: 200px;
+}
+.image_1{
+  width: 100%;
+  margin-left: 100px;
+}
+.int_cont{
+ padding-left: 200px;
+}
+.big_cont{
+  width: 80%;
+  background-color: blueviolet;
+  margin: auto;
+
+}
+
+}
+@media all and (min-width: 100px) and (max-width: 451px){
+
 }
