@@ -46,11 +46,11 @@ export const Login=()=>{
               <br />
               <br />
               <Input placeholder="Password"></Input><br /><br />
-              <Checkbox>
+              {/* <Checkbox>
                 <Text fontSize={12}>I agree with the Terms of service & Privacy Policy </Text>
-              </Checkbox>
-              <br /><br />
-              <Button bg="blackAlpha.800"_hover={{bg:"blackAlpha.900"}} color="white" width="280px">SIGN UP</Button><br /><br />
+              </Checkbox> */}
+              <br />
+              <Button bg="blackAlpha.800"_hover={{bg:"blackAlpha.900"}} color="white" width="280px">LOG IN</Button><br /><br />
               <Text fontSize={10}>Back to Login</Text><br />
               <Breadcrumb fontSize={14}>
                 <BreadcrumbItem>

@@ -11,24 +11,25 @@ export default function Navbar ( ){
     return (
       <>
         <Stack
-        p={2}
-        mt={"0px"}
+         
+          p={2}
+          width={"100%"}
+          mt={"0px"}
           bg={"#f6f8f9"}
           position={"fixed"}
           direction="row"
-          spacing={370}
-         
+          spacing={20}
         >
           <Link to={"/"}>
-            {/* <Stack ml={40}> */}
-            <Image
-            
-              mr={64}
-              style={{ width: "200px" }}
-              objectFit="cover"
-              src="https://trackingtime.co/wp-content/themes/trackingtime-v4/img/layout/header/logo.svg"
-            />
-            {/* </Stack> */}
+            <Stack ml={40}>
+              <Image
+                mt={2}
+                mr={64}
+                style={{ width: "200px" }}
+                objectFit="cover"
+                src="https://trackingtime.co/wp-content/themes/trackingtime-v4/img/layout/header/logo.svg"
+              />
+            </Stack>
           </Link>
 
           <Stack direction="row" spacing={10}>
