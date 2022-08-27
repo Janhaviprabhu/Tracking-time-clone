@@ -63,14 +63,16 @@ export const Integration=()=>{
           </div>
           <div>
             <Box className="img-box">
-            <Image
-              className="app-img"
-              src="https://trackingtime.co/wp-content/themes/trackingtime-v4/img/temp/logos/anydo.png"
-            />
-            </Box><br />
+              <Image
+                className="app-img"
+                src="https://trackingtime.co/wp-content/themes/trackingtime-v4/img/temp/logos/anydo.png"
+              />
+            </Box>
+            <br />
             <Heading as={"h3"} size={"lg"}>
               Any.Do
-            </Heading><br />
+            </Heading>
+            <br />
             <Text color={"#7f8488"}>
               Any.Do helps you get things done with your friends in a simple &
               elegant way.
@@ -78,14 +80,16 @@ export const Integration=()=>{
           </div>
           <div>
             <Box className="img-box">
-            <Image
-              className="app-img"
-              src="https://trackingtime.co/wp-content/themes/trackingtime-v4/img/temp/logos/asana.png"
-            />
-            </Box><br />
+              <Image
+                className="app-img"
+                src="https://trackingtime.co/wp-content/themes/trackingtime-v4/img/temp/logos/asana.png"
+              />
+            </Box>
+            <br />
             <Heading as={"h3"} size={"lg"}>
               Asana
-            </Heading><br />
+            </Heading>
+            <br />
             <Text color={"#7f8488"}>
               Asana puts tasks and conversations together to enable teamwork
               without email.
@@ -93,14 +97,16 @@ export const Integration=()=>{
           </div>
           <div>
             <Box className="img-box">
-            <Image
-              className="app-img"
-              src="https://trackingtime.co/wp-content/themes/trackingtime-v4/img/temp/logos/azendoo.png"
-            />
-            </Box><br />
+              <Image
+                className="app-img"
+                src="https://trackingtime.co/wp-content/themes/trackingtime-v4/img/temp/logos/azendoo.png"
+              />
+            </Box>
+            <br />
             <Heading as={"h3"} size={"lg"}>
               Azendoo
-            </Heading><br />
+            </Heading>
+            <br />
             <Text color={"#7f8488"}>
               Simplifies projects planning, documents sharing and teamwork
               synchronization for both your professional activity and your life.
@@ -108,14 +114,16 @@ export const Integration=()=>{
           </div>
           <div>
             <Box className="img-box">
-            <Image
-              className="app-img"
-              src="https://trackingtime.co/wp-content/themes/trackingtime-v4/img/temp/logos/podio.png"
-            />
-            </Box><br />
+              <Image
+                className="app-img"
+                src="https://trackingtime.co/wp-content/themes/trackingtime-v4/img/temp/logos/podio.png"
+              />
+            </Box>
+            <br />
             <Heading as={"h3"} size={"lg"}>
               Podio
-            </Heading><br />
+            </Heading>
+            <br />
             <Text color={"#7f8488"}>
               Podio lets you build and shape the online workplace most fitting
               to your role.
@@ -123,14 +131,16 @@ export const Integration=()=>{
           </div>
           <div>
             <Box className="img-box">
-            <Image
-              className="app-img"
-              src="https://trackingtime.co/wp-content/themes/trackingtime-v4/img/temp/logos/azure-devops.png"
-            />
-            </Box><br />
+              <Image
+                className="app-img"
+                src="https://trackingtime.co/wp-content/themes/trackingtime-v4/img/temp/logos/azure-devops.png"
+              />
+            </Box>
+            <br />
             <Heading as={"h3"} size={"lg"}>
               Azure DevOps
-            </Heading><br />
+            </Heading>
+            <br />
             <Text color={"#7f8488"}>
               Continuous Delivery Services for teams to share code, track work,
               and ship software.
@@ -138,14 +148,16 @@ export const Integration=()=>{
           </div>
           <div>
             <Box className="img-box">
-            <Image
-              className="app-img"
-              src="https://trackingtime.co/wp-content/themes/trackingtime-v4/img/temp/logos/basecamp-2.png"
-            />
-            </Box><br />
+              <Image
+                className="app-img"
+                src="https://trackingtime.co/wp-content/themes/trackingtime-v4/img/temp/logos/basecamp-2.png"
+              />
+            </Box>
+            <br />
             <Heading as={"h3"} size={"lg"}>
               Basecamp 2
-            </Heading><br />
+            </Heading>
+            <br />
             <Text color={"#7f8488"}>
               Basecamp is a web-based project collaboration tool that allows
               groups of people to share files.
@@ -153,14 +165,16 @@ export const Integration=()=>{
           </div>
           <div>
             <Box className="img-box">
-            <Image
-              className="app-img"
-              src="https://trackingtime.co/wp-content/themes/trackingtime-v4/img/temp/logos/bitbucket.png"
-            />
-            </Box><br />
+              <Image
+                className="app-img"
+                src="https://trackingtime.co/wp-content/themes/trackingtime-v4/img/temp/logos/bitbucket.png"
+              />
+            </Box>
+            <br />
             <Heading as={"h3"} size={"lg"}>
               Bitbucket
-            </Heading><br />
+            </Heading>
+            <br />
             <Text color={"#7f8488"}>
               Bitbucket is a code hosting site, for the Git and Mercurial
               version control systems.
@@ -168,14 +182,16 @@ export const Integration=()=>{
           </div>
           <div>
             <Box className="img-box">
-            <Image
-              className="app-img"
-              src="https://trackingtime.co/wp-content/themes/trackingtime-v4/img/button/coda-time-tracking.png"
-            />
-            </Box><br />
+              <Image
+                className="app-img"
+                src="https://trackingtime.co/wp-content/themes/trackingtime-v4/img/button/coda-time-tracking.png"
+              />
+            </Box>
+            <br />
             <Heading as={"h3"} size={"lg"}>
               Coda
-            </Heading><br />
+            </Heading>
+            <br />
             <Text color={"#7f8488"}>
               Coda blends the flexibility of a document, the power of a
               spreadsheet.
@@ -183,14 +199,16 @@ export const Integration=()=>{
           </div>
           <div>
             <Box className="img-box">
-            <Image
-              className="app-img"
-              src="https://trackingtime.co/wp-content/themes/trackingtime-v4/img/button/dixa-time-tracking.png"
-            />
-            </Box><br />
+              <Image
+                className="app-img"
+                src="https://trackingtime.co/wp-content/themes/trackingtime-v4/img/button/dixa-time-tracking.png"
+              />
+            </Box>
+            <br />
             <Heading as={"h3"} size={"lg"}>
               Dixa
-            </Heading><br />
+            </Heading>
+            <br />
             <Text color={"#7f8488"}>
               Customer service platform that unifies phone, email, chat and
               messaging apps.
@@ -198,14 +216,16 @@ export const Integration=()=>{
           </div>
           <div>
             <Box className="img-box">
-            <Image
-              className="app-img"
-              src="https://trackingtime.co/wp-content/themes/trackingtime-v4/img/button/evernote-time-tracking.png"
-            />
-            </Box><br />
+              <Image
+                className="app-img"
+                src="https://trackingtime.co/wp-content/themes/trackingtime-v4/img/button/evernote-time-tracking.png"
+              />
+            </Box>
+            <br />
             <Heading as={"h3"} size={"lg"}>
               Evernote
-            </Heading><br />
+            </Heading>
+            <br />
             <Text color={"#7f8488"}>
               Create documents, collaborate on projects, and store information
               all in one place.
@@ -213,14 +233,16 @@ export const Integration=()=>{
           </div>
           <div>
             <Box className="img-box">
-            <Image
-              className="app-img"
-              src="https://trackingtime.co/wp-content/themes/trackingtime-v4/img/button/favro.png"
-            />
-            </Box><br />
+              <Image
+                className="app-img"
+                src="https://trackingtime.co/wp-content/themes/trackingtime-v4/img/button/favro.png"
+              />
+            </Box>
+            <br />
             <Heading as={"h3"} size={"lg"}>
               Favro
-            </Heading><br />
+            </Heading>
+            <br />
             <Text color={"#7f8488"}>
               Balance power and simplicity in the ideal collaboration app for
               developers.
@@ -228,14 +250,16 @@ export const Integration=()=>{
           </div>
           <div>
             <Box className="img-box">
-            <Image
-              className="app-img"
-              src="https://trackingtime.co/wp-content/themes/trackingtime-v4/img/button/assembla-time-tracking.png"
-            />
-            </Box><br />
+              <Image
+                className="app-img"
+                src="https://trackingtime.co/wp-content/themes/trackingtime-v4/img/button/assembla-time-tracking.png"
+              />
+            </Box>
+            <br />
             <Heading as={"h3"} size={"lg"}>
               Assembla
-            </Heading><br />
+            </Heading>
+            <br />
             <Text color={"#7f8488"}>
               Online workspaces with best of breed tools like Tasks & Issue
               Management, SVN & Git Repositories.
@@ -243,14 +267,16 @@ export const Integration=()=>{
           </div>
           <div>
             <Box className="img-box">
-            <Image
-              className="app-img"
-              src="https://trackingtime.co/wp-content/themes/trackingtime-v4/img/button/figma-time-tracking.png"
-            />
-            </Box><br />
+              <Image
+                className="app-img"
+                src="https://trackingtime.co/wp-content/themes/trackingtime-v4/img/button/figma-time-tracking.png"
+              />
+            </Box>
+            <br />
             <Heading as={"h3"} size={"lg"}>
               Figma
-            </Heading><br />
+            </Heading>
+            <br />
             <Text color={"#7f8488"}>
               Cloud-based platform that enables businesses to create custom
               designs.
@@ -258,182 +284,204 @@ export const Integration=()=>{
           </div>
           <div>
             <Box className="img-box">
-            <Image
-              className="app-img"
-              src="https://trackingtime.co/wp-content/themes/trackingtime-v4/img/temp/logos/flow.svg"
-            />
-            </Box><br />
+              <Image
+                className="app-img"
+                src="https://trackingtime.co/wp-content/themes/trackingtime-v4/img/temp/logos/flow.svg"
+              />
+            </Box>
+            <br />
             <Heading as={"h3"} size={"lg"}>
               Flow
-            </Heading><br />
+            </Heading>
+            <br />
             <Text color={"#7f8488"}>
               Manage tasks, share files, have discussions, and capture ideas all
               in one place.
             </Text>
           </div>
           <div>
-            <Image
-              className="app-img"
-              src="https://trackingtime.co/wp-content/themes/trackingtime-v4/img/temp/logos/freshdesk.png"
-            />
+            <Box className="img-box">
+              <Image
+                className="app-img"
+                src="https://trackingtime.co/wp-content/themes/trackingtime-v4/img/temp/logos/freshdesk.png"
+              />
+            </Box><br />
             <Heading as={"h3"} size={"lg"}>
               Freshdesk
-            </Heading>
+            </Heading><br />
             <Text color={"#7f8488"}>
               Freshdesk is an award-winning, online help desk software that
               allows you to support customers.
             </Text>
           </div>
           <div>
+            <Box className="img-box">
             <Image
               className="app-img"
               src="https://trackingtime.co/wp-content/themes/trackingtime-v4/img/temp/logos/github.png"
-            />
+            /></Box><br />
             <Heading as={"h3"} size={"lg"}>
               GitHub
-            </Heading>
+            </Heading><br />
             <Text color={"#7f8488"}>
               GitHub is a web-based hosting service for projects that use the
               Git revision control system.
             </Text>
           </div>
           <div>
+            <Box className="img-box">
             <Image
               className="app-img"
               src="https://trackingtime.co/wp-content/themes/trackingtime-v4/img/temp/logos/gitlab.png"
             />
+            </Box><br />
             <Heading as={"h3"} size={"lg"}>
               GitLab
-            </Heading>
+            </Heading><br />
             <Text color={"#7f8488"}>
               GitLab is a on-premise or hosted Git repository management tool.
             </Text>
           </div>
           <div>
+            <Box className="img-box">
             <Image
               className="app-img"
               src="https://trackingtime.co/wp-content/themes/trackingtime-v4/img/button/ring-central-time-tracking.png"
             />
+            </Box><br />
             <Heading as={"h3"} size={"lg"}>
               Ring Central
-            </Heading>
+            </Heading><br />
             <Text color={"#7f8488"}>
               Conversation platform for teams to plan, share & organize work
               tasks.
             </Text>
           </div>
           <div>
+            <Box className="img-box">
             <Image
               className="app-img"
               src="https://trackingtime.co/wp-content/themes/trackingtime-v4/img/temp/logos/gmail.png"
             />
+            </Box><br />
             <Heading as={"h3"} size={"lg"}>
               Gmail
-            </Heading>
+            </Heading><br />
             <Text color={"#7f8488"}>
               Gmail is a free search-based web-mail service by Google.
             </Text>
           </div>
           <div>
+            <Box className="img-box">
             <Image
               className="app-img"
               src="https://trackingtime.co/wp-content/themes/trackingtime-v4/img/temp/logos/slack.png"
             />
+            </Box><br />
             <Heading as={"h3"} size={"lg"}>
               Slack
-            </Heading>
+            </Heading><br />
             <Text color={"#7f8488"}>
               Slack brings all your communication together in one place.
             </Text>
           </div>
           <div>
+            <Box className="img-box">
             <Image
               className="app-img"
               src="https://trackingtime.co/wp-content/themes/trackingtime-v4/img/button/google-calendar.png"
-            />
+            /></Box><br />
             <Heading as={"h3"} size={"lg"}>
               Google Calendar
-            </Heading>
+            </Heading><br />
             <Text color={"#7f8488"}>
               With Google Calendar, its easy to keep track of all your lifes
               important events in one place.
             </Text>
           </div>
           <div>
+            <Box className="img-box">
             <Image
               className="app-img"
               src="https://trackingtime.co/wp-content/themes/trackingtime-v4/img/temp/logos/gdocs.png"
             />
+            </Box><br />
             <Heading as={"h3"} size={"lg"}>
               Google Docs
-            </Heading>
+            </Heading><br />
             <Text color={"#7f8488"}>
               Google Docs is an online word processor, part of Google Drive.
             </Text>
           </div>
           <div>
+            <Box className="img-box">
             <Image
               className="app-img"
               src="https://trackingtime.co/wp-content/themes/trackingtime-v4/img/temp/logos/gsheets.png"
-            />
+            /></Box><br />
             <Heading as={"h3"} size={"lg"}>
               Google Sheets
-            </Heading>
+            </Heading><br />
             <Text color={"#7f8488"}>
               Google Sheets is an online spreadsheet app that lets you create
               and format spreadsheets.
             </Text>
           </div>
           <div>
+            <Box className="img-box">
             <Image
               className="app-img"
               src="https://trackingtime.co/wp-content/themes/trackingtime-v4/img/button/google-drive.png"
-            />
+            /></Box><br />
             <Heading as={"h3"} size={"lg"}>
               Google Slides
-            </Heading>
+            </Heading><br />
             <Text color={"#7f8488"}></Text>
           </div>
           <div>
+            <Box className="img-box">
             <Image
               className="app-img"
               src="https://trackingtime.co/wp-content/themes/trackingtime-v4/img/button/google-drive.png"
-            />
+            /></Box><br />
             <Heading as={"h3"} size={"lg"}>
               Google Slides
-            </Heading>
+            </Heading><br />
             <Text color={"#7f8488"}>
               Google Slides is a presentation app offered by Google.
             </Text>
           </div>
           <div>
+            <Box className="img-box">
             <Image
               className="app-img"
               src="https://trackingtime.co/wp-content/themes/trackingtime-v4/img/button/teamwork-time-tracking.png"
-            />
+            /></Box><br />
             <Heading as={"h3"} size={"lg"}>
               Teamwork
-            </Heading>
+            </Heading><br />
             <Text color={"#7f8488"}>Teamwork</Text>
           </div>
           <div>
+            <Box className="img-box">
             <Image
               className="app-img"
               src="https://trackingtime.co/wp-content/themes/trackingtime-v4/img/button/google-chat.png"
-            />
+            /></Box><br />
             <Heading as={"h3"} size={"lg"}>
               Google Chat
-            </Heading>
+            </Heading><br />
             <Text color={"#7f8488"}>Collaborate on Google chat</Text>
           </div>
           <div>
+            <Box className="img-box">
             <Image
               className="app-img"
               src="https://trackingtime.co/wp-content/themes/trackingtime-v4/img/button/microsoft-to-do.png"
-            />
+            /></Box><br />
             <Heading as={"h3"} size={"lg"}>
               Microsoft To Do
-            </Heading>
+            </Heading><br />
             <Text color={"#7f8488"}>
               Microsoft To Do is a task management app to help you stay
               organized and manage your day-to-day.
