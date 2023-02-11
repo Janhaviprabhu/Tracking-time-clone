@@ -22,7 +22,7 @@ Created a functional website for tracktime for their time managemant. Where user
 
 ## Installation Requirnments 
 
-1. Fork the repo, then clone it
+1. Fork the repo, then clone it or downlaod zip file
 2. Install all dependencies, with 'npm install'
 3. start the application `npm run start`
 
