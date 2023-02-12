@@ -14,7 +14,7 @@ Created a functional website for tracktime for their time managemant. Where user
 <li>CSS</li>
 <li>React.js</li>
 <li>Chakra UI</li>
-<li>Router Dom</li>
+<li>React Router Dom</li>
 <li>JSON Server</li>
 
 </ul>
