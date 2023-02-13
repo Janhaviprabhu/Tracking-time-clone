@@ -5,7 +5,7 @@ This is the colne of the Tracking time app. where users can track time according
 ```Tracking time```
 
 ##  Description
-Created a functional website for tracktime for their time managemant. Where user can login by enting right credentials. 
+Created a functional website for tracktime for their time managemant. Where user can login by enting right credentials. ☹️c
 
 
 ## Tech stack  💻 :
@@ -26,6 +26,7 @@ Created a functional website for tracktime for their time managemant. Where user
 2. Install all dependencies, with 'npm install'
 3. start the application `npm run start`
 
+## Some snap shots are attached below 📸 :
 
 Home Page
 ![Screenshot (50)](https://user-images.githubusercontent.com/97351159/205666948-03b2bb89-0f20-4b42-9d4c-d3067b47c285.png)
